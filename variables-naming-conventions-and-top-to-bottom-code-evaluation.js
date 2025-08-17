@@ -24,9 +24,11 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let firstName = "Alice";
+let lastName = "Wonder";
+let numberOf = 5;
+let priceOf = 4;
+let where = "online"
+let phrase = firstName + " " + lastName + " bought " + numberOf + " items " + where + " for $" + numberOf*priceOf + ".";
 
-console.log(d);
+console.log(phrase);
